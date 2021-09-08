@@ -1,0 +1,26 @@
+{
+    "person":[
+        {
+            "name":"차재영",
+            "age":26,
+            "address":"신림"
+        }
+        ,{
+            "name":"송준호",
+            "age":126,
+            "address":"붓산"
+        },{
+            "name":"바경오강",
+            "age":236,
+            "address":"마산"
+        },{
+            "name":"1",
+            "age":226,
+            "address":"서울"
+        },{
+            "name":"2",
+            "age":226,
+            "address":"대구"
+        }
+    ]
+}
