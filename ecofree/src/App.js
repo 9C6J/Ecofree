@@ -2,14 +2,16 @@ import React from 'react';
 import { Route,Link,Switch } from 'react-router-dom';
 
 import {Main,Cha,Song} from './menu';
+import {CardFeed} from './menu/song';
 
 function App() {
   return (
     <div>      
       
       <Switch>
-        <Route path="/Cha" component={Cha} />
-        <Route path="/Song" component={Song} />
+        <Route path="/cha" component={Cha} />
+        <Route path="/song/CardFeed" component={CardFeed} />
+        <Route path="/song" component={Song} />
         <Route path="/" component={Main} />
       </Switch>
     </div>
